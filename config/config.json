@@ -1,0 +1,44 @@
+{
+    "token": "",
+    "status": "Use .iwant help",
+    "cleanupInterval": 450000,
+    "messageDeleteDelay": 15000,
+    "noColorMsgDelay": 5000,
+    "consolaLoc": "consola.ttf",
+    "whitneyLoc": "whitney-medium.otf",
+    "help": {
+        "embed": {
+            "title": "RoleCaller help.",
+            "description": "I'm a very simple bot. People ask for a role color, and I make a role and give them that color. Super simple stuff. Let me take you through the commands:",
+            "thumbnail": {
+                "url": "https://cdn.discordapp.com/avatars/549622302938234890/1646e4326eb2d7d74cc88db81afb4004.png"
+            },
+            "fields": [
+                {
+                    "name": ".iwant *HEXCODE*",
+                    "value": "This is the basis mode of operation, give a hexcolor and I'll give you a preview of what that would look like as a role color. You can then decide to accept it or not. You've got about an hour to do so before I forget about it."
+                },
+                {
+                    "name": ".iwant help",
+                    "value": "That's this message!"
+                },
+                {
+                    "name": ".iwant nothing",
+                    "value": "This removes all roles that I have created from you. It's ok, I understand."
+                },
+                {
+                    "name": ".iwant *LITERALLYANYTHINGELSE*",
+                    "value": "Coming up with colors is hard. So why not let me do it for you? If you type anything else after *.iwant* I'll create a color for you, which will then go through the same accept method as the normal way."
+                },
+                {
+                    "name": ".cleanup",
+                    "value": "Now, normally, I go through the server roles every 15 minutes or so to make sure every role I created is attached to a member. But sometimes hiccups may occur and your server is getting flooded with roles that aren't in use. If that's the case, calling *.cleanup* will make sure I go through the role list and delete any unattached roles."
+                },
+                {
+                  "name": "---------",
+                  "value": "If there's anything else, contact BOTOWNERHERE. If you want to add me to your own server, click BOTINVITELINKHERE. If you also [give me manage messages](BOTINVITELINKHERE&permissions=268443712), it'll look better, but that's not needed."
+                }
+            ]
+        }
+    }
+}
